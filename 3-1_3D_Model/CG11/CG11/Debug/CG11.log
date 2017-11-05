@@ -1,0 +1,21 @@
+﻿빌드 시작: 2016-06-19 오후 5:47:19
+     1>2 노드의 "C:\Users\Hong\Documents\Visual Studio 2010\Projects\CG11\CG11\CG11.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\CG11.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Hong\Documents\Visual Studio 2010\Projects\CG11\Debug\CG11.exe" /INCREMENTAL:NO /NOLOGO opengl32.lib glu32.lib glut32.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CG11.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Hong\Documents\Visual Studio 2010\Projects\CG11\Debug\CG11.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Hong\Documents\Visual Studio 2010\Projects\CG11\Debug\CG11.lib" /MACHINE:X86 Debug\test.obj
+     1>test.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/INCREMENTAL:NO' 사양으로 인해 무시됩니다.
+         CG11.vcxproj -> C:\Users\Hong\Documents\Visual Studio 2010\Projects\CG11\Debug\CG11.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Hong\Documents\Visual Studio 2010\Projects\CG11\Debug\CG11.exe;#1" /manifest Debug\CG11.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Debug\CG11.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\CG11.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\Hong\Documents\Visual Studio 2010\Projects\CG11\CG11\CG11.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.18
